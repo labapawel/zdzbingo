@@ -29,7 +29,7 @@ require_once("lib.php");
                 </div>
                 <div class="input-group flex-nowrap">
                     <span class="input-group-text" id="addon-wrapping">@</span>
-                    <input type="text" class="form-control"  name="passowrd" placeholder="Password" aria-label="Password" aria-describedby="addon-wrapping">
+                    <input type="text" class="form-control"  name="password" placeholder="Password" aria-label="Password" aria-describedby="addon-wrapping">
                 </div>
                 <div class="col-12">
                     <button type="submit" class="btn btn-primary">Loguj</button>
