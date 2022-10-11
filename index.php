@@ -12,9 +12,9 @@ require_once("lib.php");
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="src/css/style.css">
 </head>
-<body>
+<body style="background-image: url('src/images/background-image.jpg'); background-size: 100% 100%; background-repeat: no-repeat;">
 
-    <div class="container">
+    <div class="container bg-color-dark-opacity" style="padding-left: 0; padding-right: 0;">
         <div class="col-12 border p-3">
             <div class="row justify-content-center mt-1">
                 <div class="col-6 text-center">
@@ -23,19 +23,18 @@ require_once("lib.php");
             </div>
     
             <div class="row">
-
                 <div class="col-lg-6 col-sm-12 mt-5 mr-3">
                     <form action="login.php" method="post">
                         <h2>Logowanie</h2>
 
                     <div class="form-floating mb-3">
-                        <input type="text" id="logu" class="form-control" >
-                        <label class="form-label" for="logu">Username</label>
+                        <input type="text" id="logu" class="form-control bg-transparent" >
+                        <label for="logu">Username</label>
                     </div>
 
                     <div class="form-floating mb-3">
-                        <input type="text" id="logp" class="form-control">
-                        <label class="form-label" for="logp">Password</label>
+                        <input type="text" id="logp" class="form-control bg-transparent">
+                        <label for="logp">Password</label>
                     </div>
 
                     <button type="submit" class="btn btn-primary btn-block rounded-pill">Loguj</button>
@@ -47,21 +46,21 @@ require_once("lib.php");
                         <h2>Dodaj konto</h2>
 
                     <div class="form-floating mb-3">
-                        <input type="text" class="form-control"  id="regu">
+                        <input type="text" class="form-control bg-transparent"  id="regu">
                         <label class="form-label" for="regu">Username</label>
                     </div>
 
                     <div class="form-floating mb-3">
-                        <input type="text" class="form-control"  id="regp">
+                        <input type="text" class="form-control bg-transparent"  id="regp">
                         <label class="form-label" for="regp">Password</label>
                     </div>
 
                     <div class="form-floating mb-3">
-                        <input type="text" class="form-control" id="regp1">
+                        <input type="text" class="form-control bg-transparent" id="regp1">
                         <label class="form-label" for="regp1">Repeat password</label>
                     </div>
 
-                    <button type="submit" class="btn btn-primary btn-block rounded-pill">Dodaj</button>
+                    <button type="submit" class="btn btn-primary rounded-pill">Dodaj</button>
                 </form>
                 </div>
             </div>
